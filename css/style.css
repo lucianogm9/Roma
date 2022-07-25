@@ -176,7 +176,6 @@ grid-template-areas:
 "roma roma roma"
 "primer primer primer"
 "footer footer footer";}}
-body{text-align: center;}
 @media(max-width:576px){.gridpadre{
     display: grid;
     grid-template-areas: 
@@ -193,3 +192,4 @@ body{text-align: center;}
         "primer primer primer"
         "footer footer footer";}}
         body{text-align: center;}
+.carousel{width: 100%;}
