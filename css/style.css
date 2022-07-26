@@ -193,3 +193,10 @@ grid-template-areas:
         "footer footer footer";}}
         body{text-align: center;}
 .carousel{width: 100%;}
+
+.botonWhatsApp img {
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
