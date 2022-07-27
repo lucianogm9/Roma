@@ -77,10 +77,11 @@ font-family:sans-serif}
 
 
 .contenedor{
-    width: 25em;
+    width: 20em;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
+    margin-left: 500px;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -156,3 +157,7 @@ footer{grid-area: footer;}
 }
 .img-fluid{width: 100%; width: 1500px;}
 .album{background-image: linear-gradient(to right,#dfbcc7, #7ed1ed);}
+@media (max-width: 769px){
+    body{font-size: 3.5rem;}
+
+}
