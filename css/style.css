@@ -36,11 +36,6 @@ h3 {
 
 body {
     background-image: linear-gradient(to right, #dfbcc7, #7ed1ed);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-
-
 }
 
 footer {
@@ -320,12 +315,19 @@ footer {
     background-image: linear-gradient(to right, #dfbcc7, #7ed1ed);
 }
 
-@media (max-width: 769px) {
-    body {
-        font-size: 3.5em;
-    }
+@media(max-width: 530px){
+    header{font-size: 10px;}
 
 }
+@media(min-width: 531px) and (max-width: 767px) { header{font-size: 11px;}
+
+}
+
+@media (mix-width: 767px) and (max-width: 991px)  {
+    body {
+        font-size: 3.5rem;
+    }}
+    @media (mix-width: 992px) {}
 
 .card-img-top:hover {
     filter: grayscale(70%);
