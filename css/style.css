@@ -35,13 +35,8 @@ h3 {
 }
 
 body {
-    background-image: linear-gradient(to right, #dfbcc7, #7ed1ed);
+    background-image: linear-gradient(to right, #fefefe, #e8f5fa);
 }
-
-footer {
-    background-image: linear-gradient(to right, #dfbcc7, #7ed1ed);
-}
-
 img {
     width: 9.375em;
 }
@@ -316,18 +311,35 @@ footer {
 }
 @media(max-width: 380px){
     header{font-size: 7px;}
+   .contenedor{width: 200px;}
+
+   .mapa{width: 100px;}
+   .card-img-top{width: 12.5rem;}
+   .card-title{font-size: 0.75rem;}
+   .btn-primary{font-size: 0.125rem;}
+   body{background-image: linear-gradient(to right, #fefefe, #e8f5fa);}
+   .contenedor{width: 250px;transform: translate(50px, -9px);}
+   .mapa{width: 100px;transform: translate(0px, -9px);}
+
 
 }
 
 @media(min-width: 381px) and (max-width: 450px){
-    header{font-size: 8px;}
+    header{font-size: 8px;;}
+    .contenedor{width: 350px;}
+
+
 
 }
 @media(min-width: 452px) and (max-width: 530px){
     header{font-size: 9px;}
+    .contenedor{width: 400px;}
+  
 
 }
-@media(min-width: 531px) and (max-width: 767px) { header{font-size: 11px;}
+@media(min-width: 531px) and (max-width: 767px) { 
+    header{font-size: 11px;}
+  
 
 }
 
@@ -340,3 +352,4 @@ footer {
 .card-img-top:hover {
     filter: grayscale(70%);
 }
+.card-body{background-image: linear-gradient(to right, #dccfd9, #f88edf);}

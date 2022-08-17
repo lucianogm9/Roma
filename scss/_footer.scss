@@ -17,3 +17,10 @@
         text-transform: uppercase;
     }
 }
+/*map-get*/
+$estilo:(width:1.875em);
+.contenedor{
+    width: map-get($map: $estilo, $key:width );
+}
+
+/*extend*/

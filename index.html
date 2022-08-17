@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Visita el mundo de cosas lindas. Mundo Roma.">
+  <meta name="keywords"
+    content="regalos, mates, deco, harry potter, regalos harry potter, mundo roma, roma, roma regaleria, pijamas, tazas">
   <title>Mundo Roma</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="" type="image/x-icon">
@@ -35,7 +38,7 @@
           <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
           <li class="nav-item"><a href="#productos" class="nav-link">Productos</a></li>
           <li class="nav-item"><a href="#footer" class="nav-link">¡Contactanos!</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+          <li class="nav-item"><a href="#nos" class="nav-link">Nosotros</a></li>
         </ul>
       </header>
     </div>
@@ -98,7 +101,7 @@
         </div>
       </div>
 
-      <div class="col-xl-4 col-md-4 col-sm-6 py-6">
+      <div class="col-xl-4 col-md-4 col-sm-4 py-6">
         <div class="card" style="width: 18rem;">
           <img src="img_files/tazas.jpg" class="card-img-top" alt="tazas">
           <div class="card-body">
@@ -137,9 +140,49 @@
           </div>
         </div>
       </div>
-
-
     </div>
+    <br><br><br>
+
+        <h2 id="nos">Nosotros</h2>
+        <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class=""></li>
+            <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1" class="active" aria-current="true"></li>
+            <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="/img_files/HeaderRoma" class="d-block w-100" alt="Slide 1">
+              <div class="carousel-caption d-none d-sm-block">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img src="/img_files/HeaderRoma" class="d-block w-100" alt="Slide 2">
+              <div class="carousel-caption d-none d-sm-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/img_files/HeaderRoma" class="d-block w-100" alt="Slide 3">
+              <div class="carousel-caption d-none d-sm-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselWithCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+
 
     <nav class="navbar sticky-top navbar-light">
       <div class="container-fluid">
@@ -173,31 +216,34 @@
     <br><br><br><br><br><br>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" id="footer">
       <div class="row">
-        <div class="col-xl-6 col-md-2 col-sm-2 py-2"><iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.7419773487277!2d-58.59633818519132!3d-34.71168737072507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc79bf6f16849%3A0x8ddd2ed99df2e6d!2sROMA%20Regaler%C3%ADa!5e0!3m2!1ses!2sar!4v1658893522100!5m2!1ses!2sar"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         <div class="col-xl-6 col-md-2 col-sm-2 py-2">
-          <h3>¡Envianos tu consulta!</h3>
-          <input type="text" class="control" name="nombre" id="nombre" placeholder="Nombre">
-          <input type="text" class="control" name="apellido" id="apellido" placeholder="Apellido">
-          <input type="email" class="control" name="email" id="email" placeholder="Email">
-          <input type="text" class="control" name="mensaje" id="mensaje" placeholder="Tu consulta">
-          <button class="boton">Enviar</button>
-          <button class="boton">Borrar</button>
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.7419773487277!2d-58.59633818519132!3d-34.71168737072507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc79bf6f16849%3A0x8ddd2ed99df2e6d!2sROMA%20Regaler%C3%ADa!5e0!3m2!1ses!2sar!4v1658893522100!5m2!1ses!2sar"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
         </div>
-        <div>
-          <a href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-            <svg class="bi me-2" width="40" height="32">
-              <use xlink:href="#bootstrap" />
-            </svg>
-          </a>
+        <div class="col-xl-6 col-md-2 col-sm-2 py-2">
+          <div class="contenedor">
+            <h3>¡Envianos tu consulta!</h3>
+            <input type="text" class="control" name="nombre" id="nombre" placeholder="Nombre">
+            <input type="text" class="control" name="apellido" id="apellido" placeholder="Apellido">
+            <input type="email" class="control" name="email" id="email" placeholder="Email">
+            <input type="text" class="control" name="mensaje" id="mensaje" placeholder="Tu consulta">
+            <button class="boton">Enviar</button>
+            <button class="boton">Borrar</button>
+            <div></div>
         </div>
-
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Todos los derechos reservados</a></li>
-        </ul>
+          <div>
+            <a href="/"
+              class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap" />
+              </svg>
+            </a>
+          </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
