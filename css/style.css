@@ -309,7 +309,11 @@ footer {
 .album {
     background-image: linear-gradient(to right, #dfbcc7, #7ed1ed);
 }
-@media(max-width: 380px){
+@media(max-width: 340px){
+    body{background-image: linear-gradient(to right, #fefefe, #e8f5fa);}
+}
+
+@media(min-width: 341px) and (max-width: 380px){
     header{font-size: 7px;}
    .contenedor{width: 200px;}
 
