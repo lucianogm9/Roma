@@ -331,7 +331,7 @@ footer {
 @media(min-width: 381px) and (max-width: 450px){
     header{font-size: 8px;;}
     .contenedor{width: 350px;}
-
+    body{background-image: linear-gradient(to right, #fefefe, #e8f5fa);}
 
 
 }
@@ -343,13 +343,14 @@ footer {
 }
 @media(min-width: 531px) and (max-width: 767px) { 
     header{font-size: 11px;}
+    body{background-image: linear-gradient(to right, #fefefe, #e8f5fa);}
   
 
 }
 
 @media (mix-width: 767px) and (max-width: 991px)  {
     body {
-        font-size: 3.5rem;
+        font-size: 3.5rem; background-image: linear-gradient(to right, #fefefe, #e8f5fa);
     }}
     @media (mix-width: 992px) {}
 
