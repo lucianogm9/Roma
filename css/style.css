@@ -41,17 +41,6 @@ img {
     width: 9.375em;
 }
 
-.logo {
-    margin-bottom: 0.625em;
-    padding-bottom: 0.0625em;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(120, 79, 178);
-    font-family: sans-serif
-}
-
 .relative {
     position: relative;
     bottom: 1.875em;
