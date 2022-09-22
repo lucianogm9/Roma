@@ -313,7 +313,7 @@ footer {
    body{background-image: linear-gradient(to right, #fefefe, #e8f5fa);}
    .contenedor{width: 250px;transform: translate(50px, -9px);}
    .mapa{width: 100px;transform: translate(0px, -9px);}
-
+   
 
 }
 
@@ -337,13 +337,60 @@ footer {
 
 }
 
-@media (mix-width: 767px) and (max-width: 991px)  {
+@media (min-width: 767px) and (max-width: 991px)  {
     body {
         font-size: 3.5rem; background-image: linear-gradient(to right, #fefefe, #e8f5fa);
     }}
-    @media (mix-width: 992px) {}
+
 
 .card-img-top:hover {
     filter: grayscale(70%);
 }
 .card-body{background-image: linear-gradient(to right, #dccfd9, #f88edf);}
+
+/*ESTILOS DE PROD*/
+.main-deco{
+    padding: 20px;
+}
+.container-productos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 15px;
+    gap: 10px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  position: relative;
+  background-image: linear-gradient(to right, #e0aad3, #f0e3ed);
+}
+.product__title{
+    text-align: center;
+
+}
+.producto__price{
+    color: #b73cd0;
+    font-weight: bold;
+
+}
+.producto:before {
+    content: "New";
+    background: #bd64e0;
+    padding: 10px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transform: rotate(-90deg);
+    color: white;
+  }
+  .botcompra{
+    display: block;
+    margin-top: 10px;
+    color: #38102f;
+    border: none;
+    background-color:unset
+
+  }
